@@ -1,0 +1,36 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter runtime files
+.ipynb_checkpoints/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local databases and generated model artifacts
+data/*.db
+fregit_cost_prediction/models/*.pkl
+fregit_cost_prediction/models/*.joblib
+fregit_cost_prediction/models/*_metadata.json
+Invoice_flagging/models/*.pkl
+Invoice_flagging/models/*.joblib
+Invoice_flagging/models/*_metadata.json
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
